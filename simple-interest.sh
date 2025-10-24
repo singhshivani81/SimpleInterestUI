@@ -12,6 +12,12 @@ read r
 echo "Enter the time period in years:"
 read t
 
+# Input validation
+if [[ -z "$p" || -z "$r" || -z "$t" ]]; then
+  echo "Error: All inputs (principal, rate, and time) are required."
+  exit 1
+fi
+
 # Calculate simple interest
 si=$(echo "scale=2; $p * $r * $t / 100" | bc)
 
