@@ -1,9 +1,24 @@
 # SimpleInterestUI
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
+This project calculates Simple Interest based on the given Principal Amount, Annual Rate of Interest, and Time Period (in years).
+
+Formula
+Simple Interest
+=
+𝑃
+×
+𝑇
+×
+𝑅
+Simple Interest=P×T×R
+Inputs
+
+P — Principal amount
+
+T — Time period in years
+
+R — Annual rate of interest
+
 Output
-   simple interest = p*t*r
+
+Simple Interest calculated using the formula above.
